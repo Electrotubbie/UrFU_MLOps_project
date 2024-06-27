@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 from ..apps.api import app
-from ..preparation.pipe import model
+# from ..preparation.pipe import model
 
 
 client = TestClient(app)
