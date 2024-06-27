@@ -1,4 +1,4 @@
-from preparation.pipe import model
+from ..preparation.pipe import model
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Literal
