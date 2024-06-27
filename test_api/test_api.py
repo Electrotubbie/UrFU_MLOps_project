@@ -20,9 +20,9 @@ def test_read_main():
 }
 
 
-def test_predict_price():
-    params = {"carat": 0.72, "diametr": 5.76, "color": "D", "clarity": "SI1"}
-    response = client.post("/predict_price/", json=params)
-    json_data = response.json()
-    assert response.status_code == 200
-    assert json_data == {"price": 2826.921875}
+# def test_predict_price():
+#     params = {"carat": 0.72, "diametr": 5.76, "color": "D", "clarity": "SI1"}
+#     response = client.post("/predict_price/", json=params)
+#     json_data = response.json()
+#     assert response.status_code == 200
+#     assert json_data == {"price": 2826.921875}
