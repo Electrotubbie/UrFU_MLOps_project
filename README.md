@@ -14,6 +14,7 @@ Project on the UrFU MLOps course
 Для работы модели был выбран алгоритм DecisionTreeRegressor.
 
 Процесс подготовки датасета можно рассмотреть в [preprocessing.ipynb](./preparation/preprocessing.ipynb) 
+
 Процесс обучения можно рассмотреть в [model_prepare.ipynb](./preparation/model_prepare.ipynb) 
 
 # Apps
